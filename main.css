@@ -117,37 +117,14 @@ a:hover {
 #slider-image-11:target ~ .image-container{
     left: -8000px;
 }
-@media (max-width: 80%) {
-    .slide-container {
-        width: 10%;
-    }
-    .image-container {
-        width: 10%;
+#image {
+    max-width: 80%;
 }
-}
-@media (max-height: 80%) {
-    .slide-container {
-        height: 10%;
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 8800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     }
-    .image-container {
-        height: 10%;
-}
-}
-@media (max-height: 80%) {
-    h1 {
-        text-align: center;
-        font-size: 10%;
-    }
-    h2 {
-        text-align: center;
-        font-size: 10%;
-    }
-    h4 {
-        text-align: center;
-        font-size: 10%;
-    }
-    p {
-        text-align: center;
-        font-size: 10%;
-    }
-}
